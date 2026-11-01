@@ -1,5 +1,16 @@
-﻿work/
-*.wlf
+# ModelSim generated files
+work/
 transcript
-transcript.log
+vsim.wlf
+*.wlf
+
+# Temporary files
+*.tmp
 *.bak
+*~
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
