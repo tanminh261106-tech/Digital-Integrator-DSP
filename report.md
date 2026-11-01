@@ -40,11 +40,11 @@ Describe the directory structure and how to run `sim/run.do`.
 
 \## 7. Team Contributions
 
-\- Member 1: RTL design.
+\- Member 1(Trương Ngọc Anh Khoa SE205096): RTL design.
 
-\- Member 2: Testbench and verification.
+\- Member 2(Bùi Quang Vinh Vương SE204292): Testbench and verification.
 
-\- Member 3: Repository, integration and documentation.
+\- Member 3(Lê Tấn Minh SE200684): Repository, integration and documentation.
 
 
 
