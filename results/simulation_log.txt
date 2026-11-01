@@ -1,0 +1,55 @@
+restart -f
+run -all
+# ====================================
+#  DIGITAL INTEGRATOR TEST START
+# ====================================
+# 
+# TEST 1: INITIAL RESET
+# PASS at 26000: expected=0, actual=0
+# 
+# TEST 2: POSITIVE INPUTS
+# PASS at 36000: expected=2, actual=2
+# PASS at 46000: expected=5, actual=5
+# 
+# TEST 3: NEGATIVE INPUTS
+# PASS at 56000: expected=4, actual=4
+# PASS at 66000: expected=2, actual=2
+# 
+# TEST 4: ZERO INPUT
+# PASS at 76000: expected=2, actual=2
+# 
+# TEST 5: ENABLE DISABLED
+# PASS at 86000: expected=2, actual=2
+# 
+# TEST 6: ENABLE ENABLED AGAIN
+# PASS at 96000: expected=7, actual=7
+# 
+# TEST 7: RESET DURING OPERATION
+# PASS at 106000: expected=0, actual=0
+# 
+# TEST 8: ACCUMULATION AFTER RESET
+# PASS at 116000: expected=5, actual=5
+# 
+# TEST 9: POSITIVE OVERFLOW
+# PASS at 126000: expected=0, actual=0
+# PASS at 136000: expected=120, actual=120
+# PASS at 146000: expected=-126, actual=-126
+# 
+# TEST 10: NEGATIVE OVERFLOW
+# PASS at 156000: expected=0, actual=0
+# PASS at 166000: expected=-120, actual=-120
+# PASS at 176000: expected=116, actual=116
+# 
+# ====================================
+#  SIMULATION SUMMARY
+# ====================================
+# Total tests : 16
+# Total errors: 0
+# RESULT: ALL TESTS PASSED!
+# ====================================
+# ** Note: $finish    : D:/work/tb_digital_integrator.v(218)
+#    Time: 176 ns  Iteration: 0  Instance: /tb_digital_integrator
+# 1
+# Break in Module tb_digital_integrator at D:/work/tb_digital_integrator.v line 218
+pwd
+# D:/work
