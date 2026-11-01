@@ -80,11 +80,11 @@ The design must be verified against the expected behavior and test cases specifi
 
 \## Contributors
 
-\- Member 1: RTL Design.
+\- Member 1(Trương Ngọc Anh Khoa SE205096): RTL Design.
 
-\- Member 2: Testbench and Verification.
+\- Member 2(Bùi Quang Vinh Vương SE204292): Testbench and Verification.
 
-\- Member 3: GitHub, Documentation and Integration.
+\- Member 3(Lê Tấn Minh SE200684): GitHub, Documentation and Integration.
 
 
 
